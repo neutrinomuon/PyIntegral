@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: pyintegralall
+Version: 0.0.1
+Summary: Numerical integration using several methods
+Home-page: https://github.com/neutrinomuon/IntegralALL
+Author: Jean Gomes
+Author-email: antineutrinomuon@gmail.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Fortran
+Classifier: License :: LICENSE.txt
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 # IntegralALL a package to easy integrate numerically
 ## It uses different options
 
@@ -19,3 +35,5 @@
 !              |       6        |    G -> Gauss-Legendre Quadrature |       !
 !              ======================================================       !
 ! ###########################################################################
+
+

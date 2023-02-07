@@ -1,0 +1,2 @@
+f2py -c --opt='-O3' ../Modules/DataTypes.f90 ../Interpolation/LINinterpol.f90 GaussLegendreQuadrature.f90 -m GaussLegendreQuadrature
+
