@@ -1,18 +1,19 @@
-# IntegralALL a package to easy integrate numerically
-## It uses different options
+# IntegralALL
+##  A fortran legacy package to easy integrate numerically
 
 RESUME : Integrate using different methods and spline1 interpolation  scheme. Original routine dates back to 2003-2004.
 
 The methods are given by Int_Type and may be summarized bellow:
 
 =====================================================  <br>
-    Int_Type    |    Description                    |  <br>
-       0        |    R -> Right rectangle Integral  |  <br>
-       1        |    L -> Left rectangle Integral   |  <br>
-       2        |    T -> Trapezoidal rule          |  <br>
-       3        |    S -> Simple Integral           |  <br>
-       4        |    M -> Median rectangle Integral |  <br>
-       5        |    I -> Simpsonregel's rule       |  <br>
-       6        |    G -> Gauss-Legendre Quadrature |  <br>
+<table><tr>
+<td>Int_Type</td><td>Description</td></tr>
+<td>0<td>R -> Right rectangle Integral  </td></tr>
+<td>1<td>L -> Left rectangle Integral   </td></tr>
+<td>2<td>T -> Trapezoidal rule          </td></tr>
+<td>3<td>S -> Simple Integral           </td></tr>
+<td>4<td>M -> Median rectangle Integral </td></tr>
+<td>5<td>I -> Simpsonregel's rule       </td></tr>
+<td>6<td>G -> Gauss-Legendre Quadrature </td></tr>
 =====================================================  <br>
 
