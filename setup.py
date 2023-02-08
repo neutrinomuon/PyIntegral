@@ -12,8 +12,6 @@ ext1 = Extension(  name='pyintegralall.flib',
     
 setup( name='pyintegralall',
        version='0.0.1',
-       package_dir = {"": "src/python"},
-       packages = setuptools.find_packages(where="src/python"),
        ext_modules=[ ext1 ],
        extra_compile_args=['-O3'],
        description='Numerical integration using several methods',
@@ -29,6 +27,8 @@ setup( name='pyintegralall',
            "License :: LICENSE.txt",
            "Operating System :: OS Independent",
                    ],
+       package_dir={"pyintegralall": "src/python"},
+       packages=['pyintegralall'],
        license="LICENSE.txt",
      )
     
