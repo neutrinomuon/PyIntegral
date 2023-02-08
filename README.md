@@ -30,7 +30,6 @@ The main structure of the directories and files are:
 <code>
 IntegralALL
 ├── dist
-│   ├── pyintegralall-0.0.1-cp39-cp39-linux_x86_64.whl
 │   └── pyintegralall-0.0.1.tar.gz
 ├── README.md
 ├── pyintegralall.egg-info
@@ -77,7 +76,7 @@ IntegralALL
         ├── .libs
         └── build
 
-21 directories, 26 files
+21 directories, 25 files
 </code>
 </pre>
 
