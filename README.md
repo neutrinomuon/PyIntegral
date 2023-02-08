@@ -8,13 +8,13 @@ The methods are given by Int_Type and may be summarized bellow:
 
 <table>
 <tr><td>Int_Type</td><td>Description</td></tr>
-<tr><td>0<td>R -> Right rectangle Integral  </td></tr>
-<tr><td>1<td>L -> Left rectangle Integral   </td></tr>
-<tr><td>2<td>T -> Trapezoidal rule          </td></tr>
-<tr><td>3<td>S -> Simple Integral           </td></tr>
-<tr><td>4<td>M -> Median rectangle Integral </td></tr>
-<tr><td>5<td>I -> Simpsonregel's rule       </td></tr>
-<tr><td>6<td>G -> Gauss-Legendre Quadrature </td></tr>
+<tr><td>0<td>R</td><td>Right rectangle Integral  </td></tr>
+<tr><td>1<td>L</td><td>Left rectangle Integral   </td></tr>
+<tr><td>2<td>T</td><td>Trapezoidal rule          </td></tr>
+<tr><td>3<td>S</td><td>Simple Integral           </td></tr>
+<tr><td>4<td>M</td><td>Median rectangle Integral </td></tr>
+<tr><td>5<td>I</td><td>Simpsonregel's rule       </td></tr>
+<tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
 </table>
 
 The main structure of the directories and files are:
