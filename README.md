@@ -1,7 +1,14 @@
 # IntegralALL
 ##  A fortran legacy package to easy integrate numerically
+email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
-RESUME : Integrate using different methods and spline1 interpolation  scheme. Original routine dates back to 2003-2004.
+© Copyright ®
+
+J.G. - Jean Gomes
+
+RESUME : Integrate arrays, functions numerically using different methods and
+spline1 interpolation scheme. Original routines date back to 2003-2004. Read
+the LICENSE.txt file.
 
 The methods are given by Int_Type and may be summarized bellow:
 
@@ -37,4 +44,5 @@ src
 </code>
 </pre>
 
-PyIntegralALL.py is a python wrapper to the library in fortran. 
+<mark>PyIntegralALL.py</mark> is a python wrapper to the library in fortran
+called <mark>pyintegralall.flib</mark>.
