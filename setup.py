@@ -6,12 +6,15 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open("version.txt", "r") as fh:
+    version = fh.read()
+
 ext1 = Extension(  name='pyintegralall.flib',
                    sources=['src/fortran/DataTypes.f90','src/fortran/LINinterpol.f90','src/fortran/GaussLegendreQuadrature.f90','src/fortran/IntegralALL.f90'],
                  )
     
 setup( name='pyintegralall',
-       version='0.0.1',
+       version=version,
        ext_modules=[ ext1 ],
        extra_compile_args=['-O3'],
        description='Numerical integration using several methods',
