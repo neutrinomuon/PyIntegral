@@ -19,6 +19,8 @@ The methods are given by Int_Type and may be summarized bellow:
 
 The main structure of the directories and files are:
 
+<pre>
+<code>
 src
 ├── python
 │   ├── __init__.py
@@ -32,3 +34,6 @@ src
     ├── GaussLegendreQuadrature.f90
     ├── LINinterpol.f90
     └── GaussLegendreQuadrature.compile
+</code>
+</pre>
+
