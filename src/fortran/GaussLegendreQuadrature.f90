@@ -100,7 +100,7 @@ SUBROUTINE GaussLegendreQuadrature( x,y,n_values,z,a,b,n_int )
 
     FUNCTION gaussquadrature(n) result(r)
         use ModDataType  
-        real    (kind=RP), parameter :: pi = 4*atan(1.0_RP)
+        real    (kind=RP), parameter :: pi = 4.0_RP*atan(1.0_RP)
         
         integer (kind=IB), intent(in) :: n
         integer (kind=IB) :: i,iter
@@ -122,11 +122,11 @@ SUBROUTINE GaussLegendreQuadrature( x,y,n_values,z,a,b,n_int )
         end do
 
         do i = 1,n
-           x = cos(pi*(i-0.25_RP)/(n+0.5_RP))
-           do iter = 1, 10
+           x = cos( pi*(i-0.25_RP)/(n+0.5_RP) )
+           do iter = 1,10
               f = p1(1)
               df = 0.0_RP
-              do k = 2, size(p1)
+              do k = 2,size(p1)
                  df = f + x*df
                  f  = p1(k) + x * f
               end do
@@ -144,4 +144,28 @@ SUBROUTINE GaussLegendreQuadrature( x,y,n_values,z,a,b,n_int )
       END FUNCTION gaussquadrature
       
 END SUBROUTINE GaussLegendreQuadrature
+! ###########################################################################
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+SUBROUTINE author_GaussLegendreQuadrature( a )
+  use ModDataType
+
+  implicit none
   
+  character (len=21), intent(out) :: a
+
+  !f2py intent(out) :: a
+
+  a = 'Written by Jean Gomes'
+  
+END SUBROUTINE author_GaussLegendreQuadrature
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! Jean@Porto - Fri Sep 30 15:30:49 AZOST 2011 +++++++++++++++++++++++++++++++
+
+! *** Number : 003                                                          !
+!
+! 1) GaussLegendreQuadrature within function gaussquadrature
+! 2) author_GaussLegendreQuadrature
+
+

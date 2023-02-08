@@ -1,0 +1,1 @@
+f2py -c --opt='-O3' DataTypes.f90 LINinterpol.f90 -m LINinterpol
