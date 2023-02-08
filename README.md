@@ -6,9 +6,9 @@ email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 J.G. - Jean Gomes
 
-RESUME : Integrate arrays, functions numerically using different methods and
-spline1 interpolation scheme. Original routines date back to 2003-2004. Read
-the LICENSE.txt file.
+RESUME : Integrate arrays, functions numerically using different
+methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
+LICENSE.txt file.
 
 The methods are given by Int_Type and may be summarized bellow:
 
@@ -42,27 +42,36 @@ IntegralALL
 ├── setup.py
 ├── src
 │   ├── python
+│   │   ├── __init__.py
+│   │   └── PyIntegralALL.py
 │   └── fortran
-├── build
-│   ├── lib.linux-x86_64-3.9
-│   ├── src.linux-x86_64-3.9
-│   ├── bdist.linux-x86_64
-│   └── temp.linux-x86_64-3.9
-└── .git
-    ├── branches
-    ├── logs
-    ├── info
-    ├── index
-    ├── description
-    ├── HEAD
-    ├── objects
-    ├── packed-refs
-    ├── hooks
-    ├── COMMIT_EDITMSG
-    ├── refs
-    └── config
+│       ├── IntegralALL.compile
+│       ├── IntegralALL.f90
+│       ├── IntegralALL.cpython-39-x86_64-linux-gnu.so
+│       ├── DataTypes.f90
+│       ├── GaussLegendreQuadrature.cpython-39-x86_64-linux-gnu.so
+│       ├── LINinterpol.compile
+│       ├── GaussLegendreQuadrature.f90
+│       ├── LINinterpol.cpython-39-x86_64-linux-gnu.so
+│       ├── LINinterpol.f90
+│       └── GaussLegendreQuadrature.compile
+└── build
+    ├── lib.linux-x86_64-3.9
+    │   └── pyintegralall
+    ├── src.linux-x86_64-3.9
+    │   ├── pyintegralall
+    │   ├── build
+    │   └── numpy
+    ├── bdist.linux-x86_64
+    └── temp.linux-x86_64-3.9
+        ├── pyintegralall
+        ├── __pycache__
+        ├── ccompiler_opt_cache_ext.py
+        ├── src
+        ├── .libs
+        └── build
 
-17 directories, 15 files
+19 directories, 22 files
 </code>
 </pre>
 
