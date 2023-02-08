@@ -28,21 +28,45 @@ The main structure of the directories and files are:
 
 <pre>
 <code>
-src
-├── python
-│   ├── __init__.py
-│   └── PyIntegralALL.py
-└── fortran
-    ├── IntegralALL.compile
-    ├── IntegralALL.f90
-    ├── IntegralALL.cpython-39-x86_64-linux-gnu.so
-    ├── DataTypes.f90
-    ├── GaussLegendreQuadrature.cpython-39-x86_64-linux-gnu.so
-    ├── GaussLegendreQuadrature.f90
-    ├── LINinterpol.f90
-    └── GaussLegendreQuadrature.compile
+IntegralALL
+├── dist
+│   └── pyintegralall-0.0.1.tar.gz
+├── README.md
+├── pyintegralall.egg-info
+│   ├── PKG-INFO
+│   ├── dependency_links.txt
+│   ├── SOURCES.txt
+│   ├── top_level.txt
+│   └── requires.txt
+├── LICENSE.txt
+├── setup.py
+├── src
+│   ├── python
+│   └── fortran
+├── build
+│   ├── lib.linux-x86_64-3.9
+│   ├── src.linux-x86_64-3.9
+│   ├── bdist.linux-x86_64
+│   └── temp.linux-x86_64-3.9
+└── .git
+    ├── branches
+    ├── logs
+    ├── info
+    ├── index
+    ├── description
+    ├── HEAD
+    ├── objects
+    ├── packed-refs
+    ├── hooks
+    ├── COMMIT_EDITMSG
+    ├── refs
+    └── config
+
+17 directories, 15 files
 </code>
 </pre>
 
 <mark>PyIntegralALL.py</mark> is a python wrapper to the library in fortran
-called <mark>pyintegralall.flib</mark>.
+called <mark>pyintegralall.flib</mark>. The fortran directory can be compiled
+separately for each individual subroutine.
+
