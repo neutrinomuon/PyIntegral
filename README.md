@@ -7,7 +7,7 @@ The methods are given by Int_Type and may be summarized bellow:
 
 
 <table>
-<tr><td>Int_Type</td><td>Description</td></tr>
+<tr><td>Int_Type</td><td>Type</td><td>Description</td></tr>
 <tr><td>0<td>R</td><td>Right rectangle Integral  </td></tr>
 <tr><td>1<td>L</td><td>Left rectangle Integral   </td></tr>
 <tr><td>2<td>T</td><td>Trapezoidal rule          </td></tr>
