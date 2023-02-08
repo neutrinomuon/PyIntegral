@@ -1,20 +1,15 @@
 from numpy.distutils.core import Extension
 from numpy.distutils.core import setup
 
-import setuptools
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
-with open("version.txt", "r") as fh:
-    version = fh.read()
 
 ext1 = Extension(  name='pyintegralall.flib',
                    sources=['src/fortran/DataTypes.f90','src/fortran/LINinterpol.f90','src/fortran/GaussLegendreQuadrature.f90','src/fortran/IntegralALL.f90'],
                  )
     
 setup( name='pyintegralall',
-       version=version,
+       version='0.0.1',
        ext_modules=[ ext1 ],
        extra_compile_args=['-O3'],
        description='Numerical integration using several methods',
@@ -27,11 +22,10 @@ setup( name='pyintegralall',
        classifiers=[
            "Programming Language :: Python :: 3",
            "Programming Language :: Fortran",
-           "License :: LICENSE.txt",
            "Operating System :: OS Independent",
                    ],
        package_dir={"pyintegralall": "src/python"},
        packages=['pyintegralall'],
-       license="LICENSE.txt",
-     )
+       data_files=[('', ['version.txt'])],
+      )
     
