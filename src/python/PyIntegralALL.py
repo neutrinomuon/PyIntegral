@@ -9,23 +9,27 @@ Version: v01 beta
 
 @author: Jean Gomes Copyright (c)
 
-@email: jean@iastro.pt
+@email: antineutrinomuon@gmail.com
 
 Written: Jean Michel Gomes © Copyright
 """
 
-import pyintegralall as flib
+from pyintegralall import flib
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Class PyIntegralALL
 class PyIntegralALL_class( object ):
-    
+    ''''Created on 
+Last version on Wed Sep 23 14:33:51 2020
+
+@author: Jean Gomes Copyright (c)
+'''
     def __init__( self, x, y, lambda_i=np.nan, lambda_f=np.nan, int_type=2, verbosity=0 ):
         
         self.int_type = int_type
         
-        if lambda_i==np.nan or lambda_f==np.nan: 
+        if np.isnan(lambda_i) or np.isnan(lambda_f): 
             self.lambda_i = x[0]
             self.lambda_f = x[-1]
         else:
@@ -35,6 +39,9 @@ class PyIntegralALL_class( object ):
             
             self.lambda_i = lambda_i
             self.lambda_f = lambda_f
+        
+        if verbosity:
+            print("... Integration from lambda_i: {} to lambda_f: {} ".format(self.lambda_i,self.lambda_f))
             
         self.integralall,self.iskeepon = flib.integralall( x,y,self.lambda_i,self.lambda_f,int_type=self.int_type,verbosity=verbosity )
         
@@ -58,7 +65,6 @@ class PyIntegralALL_class( object ):
 # i_object=PyIntegralALL_class( x,y,lambda_i=-10,lambda_f=-32 )
 
 # print( i_object.integralall )
-
 
 def main():
     print("")

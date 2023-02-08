@@ -71,6 +71,7 @@ IntegralALL
 │       ├── LINinterpol.cpython-39-x86_64-linux-gnu.so
 │       ├── LINinterpol.f90
 │       └── GaussLegendreQuadrature.compile
+├── version.txt
 └── build
     ├── lib.linux-x86_64-3.9
     │   └── pyintegralall
@@ -87,7 +88,7 @@ IntegralALL
         ├── .libs
         └── build
 
-19 directories, 22 files
+19 directories, 23 files
 </code>
 </pre>
 

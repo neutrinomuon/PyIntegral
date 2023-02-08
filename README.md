@@ -29,8 +29,6 @@ The main structure of the directories and files are:
 <pre>
 <code>
 IntegralALL
-├── dist
-│   └── pyintegralall-0.0.1.tar.gz
 ├── README.md
 ├── pyintegralall.egg-info
 │   ├── PKG-INFO
@@ -40,6 +38,10 @@ IntegralALL
 │   └── requires.txt
 ├── LICENSE.txt
 ├── setup.py
+├── tutorials
+│   ├── Example1 - IntegralALL.ipynb
+│   └── .ipynb_checkpoints
+│       └── Example1 - IntegralALL-checkpoint.ipynb
 ├── src
 │   ├── python
 │   │   ├── __init__.py
@@ -72,7 +74,7 @@ IntegralALL
         ├── .libs
         └── build
 
-19 directories, 23 files
+20 directories, 24 files
 </code>
 </pre>
 
