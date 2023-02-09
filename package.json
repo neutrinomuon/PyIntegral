@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "readme-icons": "generateReadmeIcons"
+  },
+  "dependencies": {
+    "devicon": "^2.15.1"
+  }
+}

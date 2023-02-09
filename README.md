@@ -6,6 +6,8 @@ email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 J.G. - Jean Gomes
 
+<link rel="stylesheet" href="devicon.min.css">
+
 RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 LICENSE.txt file.
