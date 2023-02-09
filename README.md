@@ -8,7 +8,7 @@ J.G. - Jean Gomes
 
 <hr>
 
-[![My Skills](https://skillicons.dev/icons?i=python,fortran,c,f2py&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,fortran,c,numpy&theme=light)](https://skillicons.dev)
 
 <hr>
 
