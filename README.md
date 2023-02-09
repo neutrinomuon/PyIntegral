@@ -8,6 +8,9 @@ J.G. - Jean Gomes
 
 <link rel="stylesheet" href="devicon.min.css">
 
+<!--  for devicon plain version -->
+<i class="devicon-devicon-plain"></i>
+
 RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 LICENSE.txt file.
