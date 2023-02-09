@@ -11,7 +11,6 @@ J.G. - Jean Gomes
 [![My Skills](https://skillicons.dev/icons?i=python,fortran,c,numpy&theme=light)](https://skillicons.dev)<br>
 [![python3](https://img.shields.io/pypi/pyversions/pyintegralall)](https://img.shields.io/pypi/pyversions/pyintegralall)
 [![lastcommit](https://img.shields.io/github/last-commit/neutrinomuon/IntegralALL)](https://img.shields.io/github/last-commit/neutrinomuon/IntegralALL)
-#![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white)
 
 <hr>
 
