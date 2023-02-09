@@ -6,9 +6,10 @@ email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 J.G. - Jean Gomes
 
-<link rel="stylesheet" href="devicon.min.css">
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-<!--  for devicon plain version -->
+<!-- in your body -->
 <i class="devicon-devicon-plain"></i>
 
 RESUME : Integrate arrays, functions numerically using different
@@ -88,12 +89,3 @@ IntegralALL
 <mark>PyIntegralALL.py</mark> is a python wrapper to the library in fortran
 called <mark>pyintegralall.flib</mark>. The fortran directory can be compiled
 separately for each individual subroutine.
-
-.devicon-devicon-plain {
-  max-width: 2em;
-}
-
-/* if you want to change the original color */
-.devicon-devicon-plain path {
-  fill: #4691f6;
-}
