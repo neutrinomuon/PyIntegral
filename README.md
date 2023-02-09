@@ -6,9 +6,10 @@ email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 J.G. - Jean Gomes
 
-<link rel="stylesheet" href="devicon.min.css">
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-<!--  for devicon plain version -->
+<!-- in your body -->
 <i class="devicon-devicon-plain"></i>
 
 RESUME : Integrate arrays, functions numerically using different
