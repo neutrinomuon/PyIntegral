@@ -6,7 +6,7 @@ email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 J.G. - Jean Gomes
 
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,fortran&theme=light)](https://skillicons.dev)
 
 RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
