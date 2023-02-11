@@ -8,11 +8,9 @@ J.G. - Jean Gomes
 
 <hr>
 
-<!--START_SECTION:update_image-->
 [![My Skills](https://skillicons.dev/icons?i=python,fortran,c,numpy&theme=light)](https://skillicons.dev)<br>
 [![python3](https://img.shields.io/pypi/pyversions/pyintegralall)](https://img.shields.io/pypi/pyversions/pyintegralall)
 [![badgetlicense](https://anaconda.org/neutrinomuon/pyintegralall/badges/license.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/license.svg)
-<!--END_SECTION:update_image-->
 
 <hr>
 
@@ -48,12 +46,12 @@ pip install pyintegralall
 </pre>
 or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/pyintegralall'>https://anaconda.org/neutrinomuon/pyintegralall</a>:
 
-<!--START_SECTION:update_image-->
+<img src='https://anaconda.org/neutrinomuon/pyintegralall/badges/version.svg'>
+
 [![badgetanaconda](https://anaconda.org/neutrinomuon/pyintegralall/badges/version.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/version.svg)
 [![badgetreleasedate](https://anaconda.org/neutrinomuon/pyintegralall/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/latest_release_date.svg)
 [![badgetplatforms](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg
 )](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)
-<!--END_SECTION:update_image-->
 <pre>
 <code>
 conda install -c neutrinomuon pyintegralall
