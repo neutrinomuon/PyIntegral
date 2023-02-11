@@ -11,6 +11,7 @@ J.G. - Jean Gomes
 [![My Skills](https://skillicons.dev/icons?i=python,fortran,c,numpy&theme=light)](https://skillicons.dev)<br>
 [![python3](https://img.shields.io/pypi/pyversions/pyintegralall)](https://img.shields.io/pypi/pyversions/pyintegralall)
 [![lastcommit](https://img.shields.io/github/last-commit/neutrinomuon/IntegralALL)](https://img.shields.io/github/last-commit/neutrinomuon/IntegralALL)
+[![badgetlicense](https://anaconda.org/neutrinomuon/pyintegralall/badges/license.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/license.svg)
 
 <hr>
 
@@ -18,8 +19,21 @@ RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 LICENSE.txt file.
 
-The methods are given by Int_Type and may be summarized bellow:
+You can easily install by using pip:
+<pre>
+<code>
+pip install pyintegralall
+</code>
+</pre>
+or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/pyintegralall'>https://anaconda.org/neutrinomuon/pyintegralall</a>:
+<pre>
+<code>
+conda install -c neutrinomuon pyintegralall
+</code>
+</pre>
+[![badgetplatforms]](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)
 
+The methods are given by Int_Type and may be summarized bellow:
 
 <table>
 <tr><td>Int_Type</td><td>Type</td><td>Description</td></tr>
@@ -48,10 +62,12 @@ IntegralALL
 │   └── requires.txt
 ├── LICENSE.txt
 ├── setup.py
+├── build.bat
 ├── tutorials
 │   ├── Example1 - IntegralALL.ipynb
 │   └── .ipynb_checkpoints
 │       └── Example1 - IntegralALL-checkpoint.ipynb
+├── build.sh
 ├── src
 │   ├── python
 │   │   ├── __init__.py
@@ -68,6 +84,7 @@ IntegralALL
 │       ├── LINinterpol.f90
 │       └── GaussLegendreQuadrature.compile
 ├── version.txt
+├── meta.yaml
 └── build
     ├── lib.linux-x86_64-3.9
     │   └── pyintegralall
@@ -75,16 +92,14 @@ IntegralALL
     │   ├── pyintegralall
     │   ├── build
     │   └── numpy
-    ├── bdist.linux-x86_64
     └── temp.linux-x86_64-3.9
         ├── pyintegralall
         ├── __pycache__
         ├── ccompiler_opt_cache_ext.py
         ├── src
-        ├── .libs
         └── build
 
-21 directories, 25 files
+19 directories, 28 files
 </code>
 </pre>
 
