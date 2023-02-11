@@ -38,7 +38,7 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
-You can easily install by using pip:
+You can easily install <a href=https://pypi.org/project/pyintegralall/>pyintegralall</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
 <pre>
 <code>
 pip install pyintegralall
