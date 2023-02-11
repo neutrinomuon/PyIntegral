@@ -1,5 +1,5 @@
 # IntegralALL
-1;95;0c##  A fortran legacy package to easy integrate numerically
+##  A fortran legacy package to easy integrate numerically
 email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 © Copyright ®
