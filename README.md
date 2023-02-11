@@ -55,7 +55,7 @@ or by using a generated conda repository <a href='https://anaconda.org/neutrinom
 conda install -c neutrinomuon pyintegralall
 </code>
 </pre>
-OBS.: Only linux pre-compilation platform in conda.
+OBS.: Linux and OS-X pre-compilation in conda.
 
 You can also clone the repository and install by yourself in your machine:
 <pre>
