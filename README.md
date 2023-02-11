@@ -10,7 +10,6 @@ J.G. - Jean Gomes
 
 [![My Skills](https://skillicons.dev/icons?i=python,fortran,c,numpy&theme=light)](https://skillicons.dev)<br>
 [![python3](https://img.shields.io/pypi/pyversions/pyintegralall)](https://img.shields.io/pypi/pyversions/pyintegralall)
-// [![lastcommit](https://img.shields.io/github/last-commit/neutrinomuon/IntegralALL)](https://img.shields.io/github/last-commit/neutrinomuon/IntegralALL)
 [![badgetlicense](https://anaconda.org/neutrinomuon/pyintegralall/badges/license.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/license.svg)
 
 <hr>
