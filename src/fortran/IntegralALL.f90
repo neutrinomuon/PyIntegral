@@ -2,6 +2,30 @@
 !     RESUME : Integrate using different methods and spline1 interpolation  !
 !              scheme. Original routine dates back to 2003-2004.            !
 !                                                                           !
+!              This is a Fortran 90 program for numerical integration of a  !
+!              function using the Gaussian quadrature method. The input to  !
+!              the function includes arrays of x-values (SXvalues) and      !
+!              y-values (SYvalues) that define the function to be           !
+!              integrated, a starting value (lambda_i) and an ending value  !
+!              (lambda_f) for the integration interval, the number of       !
+!              subintervals (N_lambda) to divide the interval into, an      !
+!              integer (Int_Type) that defines the type of integration,     !
+!              and an optional argument (verbosity) for the level of        !
+!              detail to be output. The function returns a scalar value     !
+!              (SIntegra) that represents the result of the integration.    !
+!                                                                           !
+!              The function makes use of two subroutines, LINinterpol and   !
+!              GaussLegendreQuadrature. The LINinterpol subroutine          !
+!              performs linear interpolation of a set of data, while the    !
+!              GaussLegendreQuadrature subroutine performs the Gaussian     !
+!              quadrature integration.                                      !
+!                                                                           !
+!              The Gaussian quadrature method is a numerical integration    !
+!              technique that uses a set of weights and abscissas (points)  !
+!              to approximate the definite integral of a function. The      !
+!              method is considered to be very accurate, especially for     !
+!              well-behaved functions.                                      !
+!                                                                           !
 !              The methods are given by Int_Type and may be summarized      !
 !              bellow:                                                      !
 !                                                                           !
