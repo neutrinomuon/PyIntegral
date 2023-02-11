@@ -48,10 +48,12 @@ pip install pyintegralall
 </pre>
 or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/pyintegralall'>https://anaconda.org/neutrinomuon/pyintegralall</a>:
 
+<!--START_SECTION:update_image-->
 [![badgetanaconda](https://anaconda.org/neutrinomuon/pyintegralall/badges/version.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/version.svg)
 [![badgetreleasedate](https://anaconda.org/neutrinomuon/pyintegralall/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/latest_release_date.svg)
 [![badgetplatforms](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg
 )](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)
+<!--END_SECTION:update_image-->
 <pre>
 <code>
 conda install -c neutrinomuon pyintegralall
