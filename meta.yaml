@@ -1,0 +1,24 @@
+package:
+  name: "pyintegralall"
+  version: "0.0.1"
+
+about:
+  summary: https://github.com/neutrinomuon/IntegralALL
+
+source:
+  path: .
+ 
+requirements:
+  host:
+    - python
+    - numpy
+    - matplotlib
+  build:
+    - python
+  run:
+    - python
+
+extra:
+  recipe-maintainers:
+    - IntegralALL
+

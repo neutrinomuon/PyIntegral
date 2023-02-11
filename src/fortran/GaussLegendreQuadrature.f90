@@ -1,5 +1,19 @@
 ! ###########################################################################
-!     RESUME : Numerical Gauss-Legendre Quadrature.                         !
+!     RESUME : Numerical Gauss-Legendre Quadrature. The subroutine          !
+!              calculates an approximation of the definite integral of      !
+!              the function represented by x and y over the interval        !
+!              [a,b] using the Gauss-Legendre quadrature method. The        !
+!              result is returned in the z output variable.                 !
+!                                                                           !
+!              The subroutine uses the LINinterpol subroutine to            !
+!              perform linear interpolation of the function values at       !
+!              new points required for the Gaussian quadrature              !
+!              calculation. The subroutine calculates the Gaussian          !
+!              quadrature points and weights using a recursive formula      !
+!              for the Legendre polynomials. Finally, the integral          !
+!              approximation is calculated as the sum of the product        !
+!              of the weights and the function values at the                !
+!              quadrature points, multiplied by (b-a)/2.                    !
 !                                                                           !
 !     INPUT  : 01) x        -> 'X' (abcissas)  vector                       !
 !              02) y        -> 'Y' (ordenadas) vector                       !
