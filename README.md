@@ -1,5 +1,5 @@
 # IntegralALL
-##  A fortran legacy package to easy integrate numerically
+1;95;0c##  A fortran legacy package to easy integrate numerically
 email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 © Copyright ®
@@ -16,7 +16,7 @@ J.G. - Jean Gomes
 
 RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
-LICENSE.txt file. Definite integrals are mathematical calculations that allow
+<a href='https://github.com/neutrinomuon/IntegralALL/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
 us to find the area under a curve between two defined points on the x-axis. In
 other words, they give us the total accumulated value of a function over an
 interval. Definite integrals are used in various fields, such as physics,
@@ -48,7 +48,8 @@ or by using a generated conda repository <a href='https://anaconda.org/neutrinom
 
 [![badgetanaconda](https://anaconda.org/neutrinomuon/pyintegralall/badges/version.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/version.svg)
 [![badgetreleasedate](https://anaconda.org/neutrinomuon/pyintegralall/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/latest_release_date.svg)
-[![badgetplatforms](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)
+[![badgetplatforms](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg
+)](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)
 <pre>
 <code>
 conda install -c neutrinomuon pyintegralall
