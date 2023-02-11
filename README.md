@@ -31,7 +31,7 @@ or by using a generated conda repository <a href='https://anaconda.org/neutrinom
 conda install -c neutrinomuon pyintegralall
 </code>
 </pre>
-[![badgetplatforms]](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)
+[![badgetplatforms](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)](https://anaconda.org/neutrinomuon/pyintegralall/badges/platforms.svg)
 
 The methods are given by Int_Type and may be summarized bellow:
 
