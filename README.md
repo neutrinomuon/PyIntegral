@@ -17,7 +17,27 @@ J.G. - Jean Gomes
 
 RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
-LICENSE.txt file.
+LICENSE.txt file. Definite integrals are mathematical calculations that allow
+us to find the area under a curve between two defined points on the x-axis. In
+other words, they give us the total accumulated value of a function over an
+interval. Definite integrals are used in various fields, such as physics,
+engineering, and finance, to solve real-world problems, such as calculating
+the total distance travelled by a moving object or the total profit of a
+company over a certain period.
+
+There are various techniques for computing definite integrals, including
+analytical methods (e.g., antiderivatives) and numerical methods (e.g., using
+quadrature or Monte Carlo). The choice of method depends on the type of
+function being integrated, the desired accuracy, and the computational
+resources available. Some commonly used numerical integration techniques
+include the trapezoidal rule, Simpson's rule, and Gaussian quadrature.
+
+In computer programming, definite integrals can be calculated using
+specialized libraries and routines that provide numerical integration
+algorithms. These routines typically take as input the function to be
+integrated, the interval over which to integrate, and the desired level of
+accuracy. The output of the routine is an approximation of the definite
+integral.
 
 You can easily install by using pip:
 <pre>
