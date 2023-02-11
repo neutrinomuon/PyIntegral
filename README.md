@@ -135,6 +135,6 @@ IntegralALL
 </code>
 </pre>
 
-<mark>PyIntegralALL.py</mark> is a python wrapper to the library in fortran
-called <mark>pyintegralall.flib</mark>. The fortran directory can be compiled
-separately for each individual subroutine.
+PyIntegralALL.py is a python wrapper to the library in fortran called
+pyintegralall.flib. The fortran directory can be compiled separately for each
+individual subroutine.
