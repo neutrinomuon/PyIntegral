@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyintegralall
-Version: 0.0.1
+Version: 0.0.5
 Summary: Numerical integration using several methods
 Home-page: https://github.com/neutrinomuon/IntegralALL
 Author: Jean Gomes

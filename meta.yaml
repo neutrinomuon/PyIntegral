@@ -1,9 +1,10 @@
 package:
   name: "pyintegralall"
-  version: "0.0.1"
+  version: "0.0.5"
 
 about:
   summary: https://github.com/neutrinomuon/IntegralALL
+  license_file: LICENSE.txt
 
 source:
   path: .
