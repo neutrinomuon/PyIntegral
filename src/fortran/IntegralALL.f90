@@ -177,8 +177,7 @@ REAL (KIND=RP) FUNCTION IntegralALL( SXvalues,SYvalues,lambda_i,lambda_f,   &
     end interface
 
     !f2py real     (kind=RP), intent(in)  :: SXvalues,SYvalues
-    !f2py                     intent(hide), depend(SXvalues) :: N_lambda=shape(SXvalues,0)
-    !f2py                     intent(hide), depend(SYvalues) :: N_lambda=shape(SYvalues,0)
+    !f2py integer  (kind=IB), intent(hide), depend(SXvalues) :: N_lambda=shape(SXvalues,0)
 
     !f2py real     (kind=RP), intent(in) :: lambda_i,lambda_f
     !f2py integer  (kind=IB), intent(out) :: IsKeepOn

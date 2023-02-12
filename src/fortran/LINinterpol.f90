@@ -61,20 +61,18 @@ SUBROUTINE LINinterpol( xx_value,yy_value,nxyvalue,xold_vec,yold_vec,       &
     real     (kind=RP) :: width_dx
     character (len=CH) :: W1aux,W2aux,W3aux,W4aux
 
-    !f2py real     (kind=RP), intent(in) :: ilastval
-    !f2py real     (kind=RP), intent(in) :: xold_vec,yold_vec
-    !f2py                     intent(hide), depend(xold_vec) :: nold_vec=shape(xold_vec,0)
-    !f2py                     intent(hide), depend(yold_vec) :: nold_vec=shape(yold_vec,0)
+    !f2py real     (kind=RP), intent(in) :: xold_vec
+    !f2py real     (kind=RP), intent(in) :: yold_vec
+    !f2py integer  (kind=IB), intent(hide), depend(xold_vec) :: nold_vec=shape(xold_vec,0)
 
     !f2py real     (kind=RP), intent(in)  :: xx_value 
     !f2py real     (kind=RP), intent(out) :: yy_value 
-    !f2py                     intent(hide), depend(xx_value) :: nxyvalue=shape(xx_value,0)
-    !f2py                     intent(hide), depend(yy_value) :: nxyvalue=shape(yy_value,0)
+    !f2py integer  (kind=IB), intent(hide), depend(xx_value) :: nxyvalue=shape(xx_value,0)
 
     !f2py integer  (kind=IB), intent(out) :: IsKeepOn
     !f2py integer  (kind=IB), intent(out) :: ilastval
 
-    !f2py                     intent(in), optional :: verbosity=0
+    !f2py integer  (kind=IB), optional :: verbosity=0
     
     save ilastnum
     data ilastnum/1/
