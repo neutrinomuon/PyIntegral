@@ -15,7 +15,7 @@ J.G. - Jean Gomes
 <hr>
 
 <div align="center">
-<img src='tutorials/Definite_Integral.png'>
+<img src='tutorials/Definite_Integral.png' width="50%">
 </div>
 
 RESUME : Integrate arrays, functions numerically using different
