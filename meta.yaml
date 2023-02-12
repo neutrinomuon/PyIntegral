@@ -8,17 +8,17 @@ about:
 
 source:
   path: .
- 
+
+build:
+  number: 0
+  script: python setup.py install
+
 requirements:
   host:
-    - python
-    - numpy
-    - matplotlib
-  build:
-    - python
+    - {{ compiler('fortran') }}
   run:
-    - python
-
+    - {{ compiler('fortran') }}
+	
 extra:
   recipe-maintainers:
     - IntegralALL
