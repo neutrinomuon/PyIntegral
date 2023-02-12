@@ -14,7 +14,9 @@ J.G. - Jean Gomes
 
 <hr>
 
+<center>
 <img src='tutorials/Definite_Integral.png'>
+</center>
 
 RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
