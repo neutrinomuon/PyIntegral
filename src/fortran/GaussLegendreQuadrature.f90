@@ -27,7 +27,7 @@
 !     PYTHON : Python compatibility using f2py revised. Better usage        !
 !              with numpy.                                                  !
 !                                                                           !
-!     Written: Jean Michel Gomes  © Copyright ®                             !
+!     Written: Jean Michel Gomes                                            !
 !     Checked: Tue May  1 16:09:13 WEST 2012                                !
 !              Tue Nov 13 15:16:54  WET 2012                                !
 !              Wed Jan  2 16:51:00  WET 2013                                !

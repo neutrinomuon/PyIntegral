@@ -115,7 +115,7 @@
 !     PYTHON : Python compatibility using f2py revised. Better usage        !
 !              with numpy.                                                  !
 !                                                                           !
-!     Written: Jean Michel Gomes  © Copyright ®                             !
+!     Written: Jean Michel Gomes                                            !
 !     Checked: Tue May  1 16:09:13 WEST 2012                                !
 !              Tue Nov 13 15:16:54  WET 2012                                !
 !              Wed Jan  2 16:51:00  WET 2013                                !
@@ -220,7 +220,7 @@ REAL (KIND=RP) FUNCTION IntegralALL( SXvalues,SYvalues,lambda_i,lambda_f,   &
     if ( lambda_i >= l_valmax .OR. lambda_f <= l_valmin ) then
         if ( IsShowOn == 1_IB ) then 
            write (*,'(4x,a)')  '[PROBLEM_FIT] @@@@@@@@@@@@@@@@@@@@@@@@'
-           write (*,'(4x,a)')  '[IntegralALL] λ & F is out of range @@'
+           write (*,'(4x,a)')  '[IntegralALL] l & F is out of range @@'
         end if
         SIntegra    = -999.0_RP
         IntegralALL = SIntegra
@@ -232,7 +232,7 @@ REAL (KIND=RP) FUNCTION IntegralALL( SXvalues,SYvalues,lambda_i,lambda_f,   &
     if ( countdel > 0 ) then
         if ( IsShowOn == 1_IB ) then 
            write (*,'(4x,a)')  '[PROBLEM_FIT] @@@@@@@@@@@@@@@@@@@@@@@@'
-           write (*,'(4x,a)')  '[IntegralALL] λ is not in increasing @'
+           write (*,'(4x,a)')  '[IntegralALL] l is not in increasing @'
         end if
         SIntegra    = -999.0_RP
         IntegralALL = SIntegra
