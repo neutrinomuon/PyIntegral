@@ -70,7 +70,7 @@ SUBROUTINE GaussLegendreQuadrature( x,y,n_values,z,a,b,n_int )
     end interface
 
     !f2py real     (kind=RP), intent(in)  :: x,y
-    !f2py integer  (kind=IB), intent(hide), depend(SXvalues) :: n_values=shape(x,0)
+    !f2py integer  (kind=IB), intent(hide), depend(x) :: n_values=shape(x,0)
 
     !f2py real     (kind=RP), intent(in) :: a,b
     !f2py real     (kind=RP), intent(out) :: z
