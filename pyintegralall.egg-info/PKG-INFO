@@ -5,6 +5,8 @@ Summary: Numerical integration using several methods
 Home-page: https://github.com/neutrinomuon/IntegralALL
 Author: Jean Gomes
 Author-email: antineutrinomuon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Fortran
 Classifier: Operating System :: OS Independent
@@ -155,3 +157,5 @@ IntegralALL
 PyIntegralALL.py is a python wrapper to the library in fortran called
 pyintegralall.flib. The fortran directory can be compiled separately for each
 individual subroutine.
+
+

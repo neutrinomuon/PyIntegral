@@ -1,0 +1,89 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "f2b6bc10eb606ce7d31e1e56cdcff3f9a751a97012741421be174f46f2555fda",
+      "size_in_bytes": 894
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "9e2e234d4643dcfd43363d482226529c420a8bea15199746917ed500ab46d445",
+      "size_in_bytes": 5935
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "7021417c5c59fd34463df124710bcaa9950f3e091cc0b635c8388517305333ab",
+      "size_in_bytes": 1168
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "de85dbb45e2f630990c9fd0b4086a02ad97454ede03fceb9e7aa8a88b6f46c37",
+      "size_in_bytes": 103
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "915a0d6814a347d21c8b83fe4ef4ebcb32efd10e88e9daae616dc93ee273fdef",
+      "size_in_bytes": 97
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall-0.0.5.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f0a9607b7d319019f47bec3a1d9b03c85320a5eb6c9b2c1c84770f33c0da0c9c",
+      "size_in_bytes": 14
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall/PyIntegralALL.py",
+      "path_type": "hardlink",
+      "sha256": "4dc3ffa0a4cabc4675673bba51b1b2fa7c6fed7ccfd1cfcbc032caad206c1388",
+      "size_in_bytes": 1784
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall/__pycache__/PyIntegralALL.cpython-39.pyc",
+      "path_type": "hardlink",
+      "sha256": "59b2ea2dba9732b499fa224b74614eb9e67432600d7f1dd211221091bd80b5d5",
+      "size_in_bytes": 1468
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall/__pycache__/__init__.cpython-39.pyc",
+      "path_type": "hardlink",
+      "sha256": "c00ecd2126e0fb3f36193dcd11145332c1b69961682b19a3c9284c57500203e1",
+      "size_in_bytes": 144
+    },
+    {
+      "_path": "lib/python3.9/site-packages/pyintegralall/flib.cpython-39-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "dedfb2e9517f87093cca0b3eeb970fb379e0702443d354653be3de529c2c1e02",
+      "size_in_bytes": 193864
+    },
+    {
+      "_path": "lib/python3.9/site-packages/version.txt",
+      "path_type": "hardlink",
+      "sha256": "ae86e790678acc7fc14f18e559c2f8c4972634d5b1b74a2a297565b8c90f804a",
+      "size_in_bytes": 6
+    }
+  ],
+  "paths_version": 1
+}

@@ -30,8 +30,9 @@ test:
 
 about:
   home: "https://github.com/neutrinomuon/IntegralALL"
-  license_file: 'LICENSE.txt'
+  license_file: 'LICENSE.txt' 
   summary: "Numerical integration using several methods"
+  doc_url: "https://github.com/neutrinomuon/IntegralALL/LICENSE.txt"
 
 extra:
   recipe-maintainers:
