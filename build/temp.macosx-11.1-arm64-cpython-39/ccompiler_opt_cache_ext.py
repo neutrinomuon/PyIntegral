@@ -2,7 +2,7 @@
 # Please make changes to the code generator             (distutils/ccompiler_opt.py)
 hash = 3550900968
 data = \
-{'cache_infile': False,
+{'cache_infile': True,
  'cache_me': {"('cc_test_flags', ['-O3'])": True,
               "('cc_test_flags', ['-Werror'])": False,
               "('cc_test_flags', ['-Werror=switch'])": True,
@@ -62,7 +62,7 @@ data = \
  'cc_on_x64': False,
  'cc_on_x86': False,
  'feature_is_cached': True,
- 'feature_min': {'NEON', 'ASIMD', 'NEON_VFPV4', 'NEON_FP16'},
+ 'feature_min': {'NEON', 'NEON_FP16', 'ASIMD', 'NEON_VFPV4'},
  'feature_supported': {'ASIMD': {'autovec': True,
                                  'implies': ['NEON', 'NEON_FP16', 'NEON_VFPV4'],
                                  'implies_detect': False,
@@ -86,7 +86,7 @@ data = \
                        'NEON_VFPV4': {'autovec': True,
                                       'implies': ['NEON', 'NEON_FP16', 'ASIMD'],
                                       'interest': 3}},
- 'hit_cache': False,
+ 'hit_cache': True,
  'parse_baseline_flags': [],
  'parse_baseline_names': ['NEON', 'NEON_FP16', 'NEON_VFPV4', 'ASIMD'],
  'parse_dispatch_names': ['ASIMDHP', 'ASIMDDP', 'ASIMDFHM'],

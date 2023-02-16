@@ -807,6 +807,21 @@ REAL (KIND=RP) FUNCTION IntegralALL( SXvalues,SYvalues,lambda_i,lambda_f,   &
 END FUNCTION IntegralALL
 ! ###########################################################################
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+SUBROUTINE author_IntegralALL( a )
+  use ModDataType
+
+  implicit none
+  
+  character (len=21), intent(out) :: a
+
+  !f2py intent(out) :: a
+
+  a = 'Written by Jean Gomes'
+  
+END SUBROUTINE author_IntegralALL
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ! Jean@Porto - Wed Sep 28 11:30:26 AZOST 2011 +++++++++++++++++++++++++++++++
 
 ! *** Test ******************************************************************
@@ -995,4 +1010,8 @@ END FUNCTION IntegralALL
 !     END PROGRAM GeneralTest
 ! *** Test ******************************************************************
 
-! *** Number : 001                                                          !
+! *** Number : 002                                                          !
+!
+! 1) IntegralALL
+! 2) author_IntegralALL
+
