@@ -59,7 +59,7 @@ or by using a generated conda repository <a href='https://anaconda.org/neutrinom
 conda install -c neutrinomuon pyintegralall
 </code>
 </pre>
-OBS.: Linux and OS-X pre-compilation in conda.
+OBS.: Linux, OS-X ad Windows pre-compilations available in conda.
 
 You can also clone the repository and install by yourself in your machine:
 <pre>
@@ -87,8 +87,57 @@ The main structure of the directories and files are:
 <pre>
 <code>
 IntegralALL
+├── pyintegralall
+│   ├── win-32
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── linux-armv7l
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── win-arm64
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── icons
+│   ├── linux-armv6l
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── noarch
+│   │   ├── .cache
+│   │   ├── repodata_from_packages.json
+│   │   ├── index.html
+│   │   ├── repodata.json
+│   │   ├── current_repodata.json.bz2
+│   │   ├── repodata.json.bz2
+│   │   ├── repodata_from_packages.json.bz2
+│   │   └── current_repodata.json
+│   ├── linux-s390x
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── linux-ppc64
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── linux-aarch64
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── index.html
+│   ├── linux-32
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── channeldata.json
+│   ├── linux-64
+│   │   ├── .cache
+│   │   ├── repodata_from_packages.json
+│   │   ├── index.html
+│   │   ├── repodata.json
+│   │   ├── current_repodata.json.bz2
+│   │   ├── repodata.json.bz2
+│   │   ├── repodata_from_packages.json.bz2
+│   │   ├── current_repodata.json
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── osx-64
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── meta.yaml
+│   ├── win-64
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   ├── README.txt
+│   ├── linux-ppc64le
+│   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
+│   └── osx-arm64
+│       └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
 ├── dist
-│   └── pyintegralall-0.0.1.tar.gz
+│   └── pyintegralall-0.0.5.tar.gz
 ├── README.md
 ├── pyintegralall.egg-info
 │   ├── PKG-INFO
@@ -98,29 +147,44 @@ IntegralALL
 │   └── requires.txt
 ├── LICENSE.txt
 ├── setup.py
-├── build.bat
 ├── tutorials
+│   ├── Definite_Integral.png
 │   ├── Example1 - IntegralALL.ipynb
+│   ├── Definite_Integral.py
 │   └── .ipynb_checkpoints
 │       └── Example1 - IntegralALL-checkpoint.ipynb
-├── build.sh
 ├── src
 │   ├── python
 │   │   ├── __init__.py
 │   │   └── PyIntegralALL.py
 │   └── fortran
+│       ├── LINinterpol.cpython-39-darwin.so
+│       ├── GaussLegendreQuadrature.cpython-311-darwin.so
 │       ├── IntegralALL.compile
 │       ├── IntegralALL.f90
+│       ├── IntegralALL.cpython-39-darwin.so
 │       ├── IntegralALL.cpython-39-x86_64-linux-gnu.so
+│       ├── IntegralALL.cpython-310-darwin.so
+│       ├── IntegralALL.cpython-310-x86_64-linux-gnu.so
+│       ├── GaussLegendreQuadrature.cpython-38-x86_64-linux-gnu.so
+│       ├── IntegralALL.cpython-311-darwin.so
 │       ├── DataTypes.f90
 │       ├── GaussLegendreQuadrature.cpython-39-x86_64-linux-gnu.so
+│       ├── GaussLegendreQuadrature.cpython-310-darwin.so
+│       ├── LINinterpol.cpython-311-darwin.so
+│       ├── IntegralALL.cpython-38-x86_64-linux-gnu.so
+│       ├── LINinterpol.cpython-38-x86_64-linux-gnu.so
+│       ├── GaussLegendreQuadrature.cpython-310-x86_64-linux-gnu.so
+│       ├── LINinterpol.cpython-310-darwin.so
 │       ├── LINinterpol.compile
 │       ├── GaussLegendreQuadrature.f90
+│       ├── README.txt
 │       ├── LINinterpol.cpython-39-x86_64-linux-gnu.so
+│       ├── GaussLegendreQuadrature.cpython-39-darwin.so
+│       ├── LINinterpol.cpython-310-x86_64-linux-gnu.so
 │       ├── LINinterpol.f90
 │       └── GaussLegendreQuadrature.compile
 ├── version.txt
-├── meta.yaml
 └── build
     ├── lib.linux-x86_64-3.9
     │   └── pyintegralall
@@ -130,12 +194,12 @@ IntegralALL
     │   └── numpy
     └── temp.linux-x86_64-3.9
         ├── pyintegralall
-        ├── __pycache__
         ├── ccompiler_opt_cache_ext.py
         ├── src
+        ├── .libs
         └── build
 
-19 directories, 28 files
+37 directories, 74 files
 </code>
 </pre>
 
