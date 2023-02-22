@@ -224,7 +224,8 @@ pyintegralall.flib. The fortran directory can be compiled separately for each
 individual subroutine.
 
 #### <b>LICENSE</b>
-<div><object data="LICENSE.txt"></object></div>
+<embed src=="LICENSE.txt">
+
 
 
 
