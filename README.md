@@ -222,3 +222,9 @@ IntegralALL
 PyIntegralALL.py is a python wrapper to the library in fortran called
 pyintegralall.flib. The fortran directory can be compiled separately for each
 individual subroutine.
+
+#### <b>LICENSE</b>
+<div w3-include-html="LICENSE.txt"></div>
+
+
+
