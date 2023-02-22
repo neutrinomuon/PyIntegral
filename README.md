@@ -20,9 +20,9 @@ J.G. - Jean Gomes
 
 <hr>
 
-#### <b>DESCRIPTION</b>
+#### <b>RESUME</b>
 
-RESUME : Integrate arrays, functions numerically using different
+Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 <a href='https://github.com/neutrinomuon/IntegralALL/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
 us to find the area under a curve between two defined points on the x-axis. In
@@ -45,6 +45,10 @@ algorithms. These routines typically take as input the function to be
 integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
+
+<hr>
+
+#### <b>INSTALLATION</b>
 
 You can easily install <a href=https://pypi.org/project/pyintegralall/>pyintegralall</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
 <pre>
@@ -73,6 +77,10 @@ python setup.py install
 </code>
 </pre>
 
+<hr>
+
+#### <b>METHODS</b>
+
 The methods are given by Int_Type and may be summarized bellow:
 
 <table>
@@ -85,6 +93,10 @@ The methods are given by Int_Type and may be summarized bellow:
 <tr><td>5<td>I</td><td>Simpsonregel's rule       </td></tr>
 <tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
 </table>
+
+<hr>
+
+#### <b>STRUCTURE</b>
 
 The main structure of the directories and files are:
 
