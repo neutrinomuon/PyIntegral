@@ -1,5 +1,5 @@
 {% set name = "pyintegralall" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: f3fd48d78435c5634ee7f408ea5a50c3b917763227e8123b369358cb8ce96929
+  sha256: 0f9a251159700fae62752529d8fd5d90fa71c2c3637b0b74e2197cc4d5e9e569
 
 build:
   number: 0
@@ -34,7 +34,7 @@ about:
   license_url: "https://github.com/neutrinomuon/IntegralALL/LICENSE.txt"
   summary: "Integrate arrays, functions numerically using different methods in Python. Original Fortran 2003+ legacy routines date back to 2003-2004. Read the LICENSE.txt file."
   doc_url: "https://github.com/neutrinomuon/IntegralALL/"
-  description: '../README.md'
+  description: file:../README.md
 
 extra:
   recipe-maintainers:
