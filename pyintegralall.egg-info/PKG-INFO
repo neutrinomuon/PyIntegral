@@ -1,10 +1,12 @@
 Metadata-Version: 2.1
 Name: pyintegralall
-Version: 0.0.6
+Version: 0.0.7
 Summary: Numerical integration using several methods
 Home-page: https://github.com/neutrinomuon/IntegralALL
 Author: Jean Gomes
 Author-email: antineutrinomuon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Fortran
 Classifier: Operating System :: OS Independent
@@ -31,7 +33,11 @@ J.G. - Jean Gomes
 <img src='https://github.com/neutrinomuon/IntegralALL/blob/main/tutorials/Definite_Integral.png?raw=true' width="50%">
 </div>
 
-RESUME : Integrate arrays, functions numerically using different
+<hr>
+
+#### <b>RESUME</b>
+
+Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 <a href='https://github.com/neutrinomuon/IntegralALL/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
 us to find the area under a curve between two defined points on the x-axis. In
@@ -54,6 +60,10 @@ algorithms. These routines typically take as input the function to be
 integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
+
+<hr>
+
+#### <b>INSTALLATION</b>
 
 You can easily install <a href=https://pypi.org/project/pyintegralall/>pyintegralall</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
 <pre>
@@ -82,6 +92,10 @@ python setup.py install
 </code>
 </pre>
 
+<hr>
+
+#### <b>METHODS</b>
+
 The methods are given by Int_Type and may be summarized bellow:
 
 <table>
@@ -94,6 +108,10 @@ The methods are given by Int_Type and may be summarized bellow:
 <tr><td>5<td>I</td><td>Simpsonregel's rule       </td></tr>
 <tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
 </table>
+
+<hr>
+
+#### <b>STRUCTURE</b>
 
 The main structure of the directories and files are:
 
@@ -219,3 +237,24 @@ IntegralALL
 PyIntegralALL.py is a python wrapper to the library in fortran called
 pyintegralall.flib. The fortran directory can be compiled separately for each
 individual subroutine.
+
+<hr>
+
+#### <b>LICENSE</b>
+
+This software is provided "AS IS" (see DISCLAIMER below). Permission to use,
+for non-commercial purposes is granted. Permission to modify for personal or
+internal use is granted, provided this copyright and disclaimer are included
+in ALL copies of the software. All other rights are reserved. In particular,
+redistribution of the code is not allowed without explicit permission by the
+author.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
