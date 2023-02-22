@@ -224,7 +224,21 @@ pyintegralall.flib. The fortran directory can be compiled separately for each
 individual subroutine.
 
 #### <b>LICENSE</b>
-<div><object data="https://github.com/neutrinomuon/IntegralALL/blob/main/LICENSE.txt"></object></div>
+
+This software is provided "AS IS" (see DISCLAIMER below). Permission to
+use, for non-commercial purposes is granted. Permission to modify for personal
+or internal use is granted, provided this copyright and disclaimer are
+included in ALL copies of the software. All other rights are reserved. In
+particular, redistribution of the code is not allowed without explicit
+permission by the author.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 
 
