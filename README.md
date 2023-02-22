@@ -18,6 +18,10 @@ J.G. - Jean Gomes
 <img src='https://github.com/neutrinomuon/IntegralALL/blob/main/tutorials/Definite_Integral.png?raw=true' width="50%">
 </div>
 
+<hr>
+
+#### <b>DESCRIPTION</b>
+
 RESUME : Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 <a href='https://github.com/neutrinomuon/IntegralALL/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
