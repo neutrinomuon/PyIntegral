@@ -15,7 +15,7 @@ J.G. - Jean Gomes
 <hr>
 
 <div align="center">
-<img src='tutorials/Definite_Integral.png' width="50%">
+<img src='https://github.com/neutrinomuon/IntegralALL/blob/main/tutorials/Definite_Integral.png?raw=true' width="50%">
 </div>
 
 RESUME : Integrate arrays, functions numerically using different
