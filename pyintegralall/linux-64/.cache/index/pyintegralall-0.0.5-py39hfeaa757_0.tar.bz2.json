@@ -1,1 +1,0 @@
-{"build": "py39hfeaa757_0", "build_number": 0, "depends": ["matplotlib", "numpy", "python >=3.9,<3.10.0a0", "python_abi 3.9.* *_cp39"], "name": "pyintegralall", "subdir": "linux-64", "timestamp": 1676486450067, "version": "0.0.5", "size": 91389, "md5": "838acdd71599a2537c98b6f7df4eeac3", "sha256": "fd642897a5216733b8c593e7b3a3fe83b2fa6156875bedbc5b74ce703c32bc5e"}

@@ -1,5 +1,5 @@
-# IntegralALL
-##  A fortran legacy package to easy integrate numerically
+### IntegralALL
+####  A Fortran legacy package to easy integrate numerically
 email: antineutrinomuon@gmail.com, jean@astro.up.pt
 
 © Copyright ®
@@ -93,6 +93,15 @@ The methods are given by Int_Type and may be summarized bellow:
 <tr><td>5<td>I</td><td>Simpsonregel's rule       </td></tr>
 <tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
 </table>
+
+<hr>
+
+#### <b>REFERENCES</b>
+
+<ol><il> William H. Press, Saul A. Teukolsky, William T. Vetterling, and Brian
+P. Flannery. Numerical Recipes: The Art of Scientific Computing. William ISBN:
+978-0521880688. Link: <a
+href='https://www.nr.com/'>https://www.nr.com/</a></il> </ol>
 
 <hr>
 
@@ -219,8 +228,8 @@ IntegralALL
 </code>
 </pre>
 
-PyIntegralALL.py is a python wrapper to the library in fortran called
-pyintegralall.flib. The fortran directory can be compiled separately for each
+PyIntegralALL.py is a python wrapper to the library in Fortran called
+pyintegralall.flib. The Fortran directory can be compiled separately for each
 individual subroutine.
 
 <hr>
