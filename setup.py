@@ -9,7 +9,7 @@ ext1 = Extension(  name='pyintegralall.flib',
                  )
     
 setup( name='pyintegralall',
-       version='0.0.7',
+       version='0.0.8',
        ext_modules=[ ext1 ],
        extra_compile_args=['-O3'],
        description='Numerical integration using several methods',
