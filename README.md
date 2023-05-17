@@ -1,4 +1,4 @@
-### IntegralALL
+### pyintegralall
 ####  A Fortran legacy package to easy integrate numerically
 email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
 
@@ -15,7 +15,7 @@ J.G. - Jean Gomes
 <hr>
 
 <div align="center">
-<img src='https://github.com/neutrinomuon/IntegralALL/blob/main/tutorials/Definite_Integral.png?raw=true' width="50%">
+<img src='https://github.com/neutrinomuon/pyintegralall/blob/main/tutorials/Definite_Integral.png?raw=true' width="50%">
 </div>
 
 <hr>
@@ -24,7 +24,7 @@ J.G. - Jean Gomes
 
 Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
-<a href='https://github.com/neutrinomuon/IntegralALL/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
+<a href='https://github.com/neutrinomuon/pyintegralall/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
 us to find the area under a curve between two defined points on the x-axis. In
 other words, they give us the total accumulated value of a function over an
 interval. Definite integrals are used in various fields, such as physics,
@@ -72,7 +72,7 @@ OBS.: Linux, OS-X ad Windows pre-compilations available in conda.
 You can also clone the repository and install by yourself in your machine:
 <pre>
 <code>
-git clone https://github.com/neutrinomuon/IntegralALL
+git clone https://github.com/neutrinomuon/pyintegralall
 python setup.py install
 </code>
 </pre>
@@ -111,7 +111,7 @@ The main structure of the directories and files are:
 
 <pre>
 <code>
-IntegralALL
+pyintegralall
 ├── pyintegralall
 │   ├── win-32
 │   │   └── pyintegralall-0.0.5-py39hfeaa757_0.tar.bz2
@@ -174,10 +174,10 @@ IntegralALL
 ├── setup.py
 ├── tutorials
 │   ├── Definite_Integral.png
-│   ├── Example1 - IntegralALL.ipynb
+│   ├── Example1 - pyintegralall.ipynb
 │   ├── Definite_Integral.py
 │   └── .ipynb_checkpoints
-│       └── Example1 - IntegralALL-checkpoint.ipynb
+│       └── Example1 - pyintegralall-checkpoint.ipynb
 ├── src
 │   ├── python
 │   │   ├── __init__.py
