@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+version.txt
+PyIntegral.egg-info/PKG-INFO
+PyIntegral.egg-info/SOURCES.txt
+PyIntegral.egg-info/dependency_links.txt
+PyIntegral.egg-info/requires.txt
+PyIntegral.egg-info/top_level.txt
+src/fortran/DataTypes.f90
+src/fortran/GaussLegendreQuadrature.f90
+src/fortran/IntegralALL.f90
+src/fortran/LINinterpol.f90
+src/python/PyIntegral.py
+src/python/__init__.py
