@@ -22,7 +22,7 @@ jobs:
       
       - name: Get Commit SHA
         run: |
-          TOKEN=${{ secrets.GITHUB_TOKEN }}
+          TOKEN=${{ secrets.TOKENACTION }}
           FILE_PATH="README.md"
           BRANCH="main"
           
@@ -36,7 +36,7 @@ jobs:
           
       - name: Update README with new version
         run: |
-          TOKEN=${{ secrets.GITHUB_TOKEN }}
+          TOKEN=${{ secrets.TOKENACTION }}
           FILE_PATH="README.md"
           BRANCH="main"
           COMMIT_MESSAGE="Update README with new version"
