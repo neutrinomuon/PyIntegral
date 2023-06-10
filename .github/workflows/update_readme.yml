@@ -1,8 +1,5 @@
 name: Update README and meta.yaml from PyIntegral
 
-
-CACACACCACACA
-
 on:
   push:
     branches:
