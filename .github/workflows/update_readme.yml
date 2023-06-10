@@ -134,7 +134,7 @@ jobs:
           
       - name: Update meta.yaml with new version
         run: |
-          TOKEN=${{ secrets.ACTIONTOKEN }}
+          TOKEN=${{ secrets.TOKENACTION }}
           FILE_PATH="meta.yaml"
           BRANCH="main"
           COMMIT_MESSAGE="Update README with new version"
