@@ -6,7 +6,7 @@ email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@as
 
 J.G. - Jean Gomes
 
-last stable version: 0.0.12
+last stable version: 0.0.11
 
 <hr>
 
