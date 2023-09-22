@@ -17,12 +17,14 @@ last stable version: 0.0.11
 <hr>
 
 <div align="center">
-<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/tutorials/Definite_Integral.png?raw=true' width="50%">
+<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Definite_Integral.png?raw=true' width="50%">
 </div>
 
 <hr>
 
 #### <b>RESUME</b>
+
+<img src="https://raw.githubusercontent.com/neutrinomuon/TreeHue/main/figures/PyIntegral.png" width=120>
 
 Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
