@@ -1,1 +1,1 @@
-PyIntegral
+pyintegral

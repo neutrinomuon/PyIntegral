@@ -80,14 +80,15 @@ SUBROUTINE GaussLegendreQuadrature( x,y,n_values,z,a,b,n_int )
     IsKeepOn = 0_IB
     IsOFF = 0_IB
 
+    n_interations = 20_IB
     if ( present(n_int) ) then
        if ( n_interations > 1_IB ) then
           n_interations = n_int
        else
-          n_interations = 20
+          n_interations = 20_IB
        end if
     else
-       n_interations = 20
+       n_interations = 20_IB
     end if
 
     do n=1,n_int

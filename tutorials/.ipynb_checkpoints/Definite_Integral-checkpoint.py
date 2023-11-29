@@ -1,13 +1,10 @@
-'''Produce an illustrative image of a Definite Integral'''
-# --------------------------------------------------------------------
-# Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+'''Produce an image of a Definite Integral'''
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon
 
-def cubic_func(x_val):
-    '''Cubic function for drawing'''
-    return (x_val - 3) * (x_val - 5) * (x_val - 7)
+def cubic_func(x):
+    return (x - 3) * (x - 5) * (x - 7)
 
 a, b = 2, 9  # Integral limits [a,b]
 x_array = np.linspace(1, 9.5)
@@ -42,3 +39,4 @@ plt.title('Definite Integral')
 
 plt.savefig('Definite_Integral.png')
 plt.show()
+
