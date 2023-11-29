@@ -49,6 +49,11 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
+Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
+
+--------------------------------------------------------------------<br>
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
+
 <hr>
 
 #### <b>INSTALLATION</b>
