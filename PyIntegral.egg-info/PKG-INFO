@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyintegral
-Version: 0.0.12
+Version: 0.0.12.2
 Summary: Integrate arrays, functions numerically usingdifferent methods in Python. Original Fortran2003+ legacy routines date back to 2003-2004.Read the LICENSE.txt file. In agreement with PEP 8 standard guide
 Home-page: https://github.com/neutrinomuon/PyIntegral
 Author: Jean Gomes
@@ -19,7 +19,7 @@ email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@as
 
 J.G. - Jean Gomes
 
-last stable version: 0.0.11
+last stable version: 0.0.12.2
 
 <hr>
 
@@ -61,6 +61,11 @@ algorithms. These routines typically take as input the function to be
 integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
+
+Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
+
+--------------------------------------------------------------------<br>
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
 
 <hr>
 

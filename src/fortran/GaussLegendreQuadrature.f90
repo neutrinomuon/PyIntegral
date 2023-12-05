@@ -32,6 +32,11 @@
 !              Tue Nov 13 15:16:54  WET 2012                                !
 !              Wed Jan  2 16:51:00  WET 2013                                !
 !              Thu Jan  3 09:19:05  WET 2013                                !
+!                                                                           !
+!         LOG: Ter  5 Dez 2023 11:59:26 WET                                 !
+!              Problem with definition of variable n_interactions           !
+!              Corrected the problem by changing n_interactions to n_int    !
+!              if ( n_int > 1_IB ) then                                     !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 SUBROUTINE GaussLegendreQuadrature( x,y,n_values,z,a,b,n_int )
 
@@ -82,7 +87,7 @@ SUBROUTINE GaussLegendreQuadrature( x,y,n_values,z,a,b,n_int )
 
     n_interations = 20_IB
     if ( present(n_int) ) then
-       if ( n_interations > 1_IB ) then
+       if ( n_int > 1_IB ) then
           n_interations = n_int
        else
           n_interations = 20_IB
