@@ -49,7 +49,7 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png" width=90>
+![Education Icon](https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png =70x)
 This project was also created with a focus on educational purposes.
 
 Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
