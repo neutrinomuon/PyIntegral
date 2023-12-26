@@ -49,11 +49,9 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png" width="70">
-This project was also created with a focus on educational purposes.
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png" width="70">This project was also created with a focus on educational purposes.
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PEP8-StyleGuide.jpg" width="70">
-Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PEP8-StyleGuide.jpg" width="70">Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
 
 --------------------------------------------------------------------<br>
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
