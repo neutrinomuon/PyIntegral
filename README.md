@@ -4,31 +4,6 @@
 
 ### $\color{red}{\textsf{PyIntegral}}$
 
-$\sum_{
-\begin{subarray}{l}
-   i\in\Lambda\\
-   0<j<n
-\end{subarray}}
-$
-
-\[
-\sum_{
-\begin{subarray}{l}
-   i\in\Lambda\\
-   0<j<n
-\end{subarray}
-}
-\]
-
-$$
-\sum_{
-\begin{subarray}{l}
-   i\in\Lambda\\
-   0<j<n
-\end{subarray}
-}
-$$
-
 ####  A Fortran legacy package to easy integrate numerically
 email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
 
