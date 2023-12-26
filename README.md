@@ -100,7 +100,13 @@ The methods are given by Int_Type and may be summarized bellow:
 <tr><td>4<td>M</td><td>Median rectangle Integral </td></tr>
 <tr><td>5<td>I</td><td>Simpsonregel's rule       </td></tr>
 <tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
+
+<div align="center">
+<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Example_Integration.png?raw=true' width="50%">
+</div>
+
 </table>
+
 
 <hr>
 
