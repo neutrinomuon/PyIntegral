@@ -11,6 +11,8 @@ email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@as
 J.G. - Jean Gomes
 
 last stable version: 0.0.12.2
+https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)
 
 <hr>
 
