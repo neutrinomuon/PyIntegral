@@ -24,7 +24,7 @@ last stable version: 0.0.12.2
 
 #### <b>RESUME</b>
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" width=120>
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" width=120px>
 Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 <a href='https://github.com/neutrinomuon/PyIntegral/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
@@ -49,7 +49,7 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png" width="70">This project was also created with a focus on educational purposes.
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png" width="70px">This project was also created with a focus on educational purposes.
 
 <img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PEP8-StyleGuide.jpg" width="70px"> Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
 
