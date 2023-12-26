@@ -104,7 +104,7 @@ The methods are given by Int_Type and may be summarized bellow:
 <tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
 
 <div align="center">
-<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Example_Integration.png?raw=true' width="50%">
+<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Example_Integration.png?raw=true' width="70%">
 </div>
 
 </table>
