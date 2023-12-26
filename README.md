@@ -49,6 +49,9 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png" width=120>
+This project was made also for educational purposes.
+
 Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
 
 --------------------------------------------------------------------<br>
@@ -194,6 +197,25 @@ PyIntegral
 PyIntegral.py is a python wrapper to the library in Fortran called
 pyintegral.flib. The Fortran directory can be compiled separately for each
 individual subroutine.
+
+<hr>
+
+#### <b>ISSUES AND CONTRIBUTIONS</b>
+
+If you encounter any issues with this project, please feel free to submit an
+issue on the GitHub repository. We appreciate your feedback and are committed
+to improving the quality of our codebase.
+
+If you'd like to contribute to this project, we welcome pull requests from the
+community. Before submitting a pull request, please make sure to fork the
+repository and create a new branch for your changes. Once your changes are
+complete, submit a pull request and we'll review your code as soon as
+possible.
+
+For any questions or concerns about contributing, please contact the project
+maintainer at
+[antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com). Thank you for
+your interest in contributing to our project!
 
 <hr>
 
