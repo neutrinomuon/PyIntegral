@@ -131,69 +131,89 @@ The main structure of the directories and files are:
 
 <pre>
 <code>
+#################################################
 PyIntegral
 ├── PyIntegral
+│   ├── win-32
+│   ├── linux-armv7l
+│   ├── win-arm64
+│   ├── linux-armv6l
+│   ├── linux-s390x
+│   ├── linux-ppc64
+│   ├── linux-aarch64
+│   ├── linux-32
+│   ├── linux-64
+│   ├── osx-64
+│   ├── meta.yaml
+│   ├── win-64
+│   ├── README.txt
+│   ├── linux-ppc64le
+│   └── osx-arm64
 ├── dist
-│   └── PyIntegral-0.0.10.tar.gz
+│   └── pyintegral-0.0.12.2.tar.gz
 ├── README.md
 ├── showdown.min.js
+├── figures
+│   ├── Definite_Integral.png
+│   ├── Example_Integration.png
+│   ├── PyIntegral.png
+│   ├── PEP8-StyleGuide.jpg
+│   └── Education,_Studying,_University,_Alumni_-_icon.png
+├── .github
+│   └── workflows
 ├── scripts
 │   └── update_readme.py
 ├── index.html
 ├── LICENSE.txt
 ├── setup.py
-├── PyIntegral.egg-info
+├── tutorials
+│   ├── Definite_Integral.png
+│   ├── Definite_Integral.py
+│   ├── .ipynb_checkpoints
+│   ├── example1_pyintegral.ipynb
+│   ├── .virtual_documents
+│   └── README.txt
+├── src
+│   ├── python
+│   └── fortran
+├── .DS_Store
+├── version.txt
+├── pyintegral.egg-info
 │   ├── PKG-INFO
 │   ├── dependency_links.txt
 │   ├── SOURCES.txt
 │   ├── top_level.txt
 │   └── requires.txt
-├── tutorials
-│   ├── Definite_Integral.png
-│   ├── Definite_Integral.py
-│   ├── .ipynb_checkpoints
-│   │   ├── Example1 - pyintegralall-checkpoint.ipynb
-│   │   └── Example1 - IntegralALL-checkpoint.ipynb
-│   └── Example1 - pyintegralall.ipynb
-├── src
-│   ├── python
-│   │   ├── __init__.py
-│   │   └── PyIntegralALL.py
-│   └── fortran
-│       ├── LINinterpol.cpython-39-darwin.so
-│       ├── GaussLegendreQuadrature.cpython-311-darwin.so
-│       ├── IntegralALL.compile
-│       ├── IntegralALL.f90
-│       ├── IntegralALL.cpython-39-darwin.so
-│       ├── IntegralALL.cpython-39-x86_64-linux-gnu.so
-│       ├── IntegralALL.cpython-310-darwin.so
-│       ├── IntegralALL.cpython-310-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-38-x86_64-linux-gnu.so
-│       ├── IntegralALL.cpython-311-darwin.so
-│       ├── DataTypes.f90
-│       ├── GaussLegendreQuadrature.cpython-39-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-310-darwin.so
-│       ├── LINinterpol.cpython-311-darwin.so
-│       ├── IntegralALL.cpython-38-x86_64-linux-gnu.so
-│       ├── LINinterpol.cpython-38-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-310-x86_64-linux-gnu.so
-│       ├── LINinterpol.cpython-310-darwin.so
-│       ├── LINinterpol.compile
-│       ├── GaussLegendreQuadrature.f90
-│       ├── README.txt
-│       ├── LINinterpol.cpython-39-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-39-darwin.so
-│       ├── LINinterpol.cpython-310-x86_64-linux-gnu.so
-│       ├── LINinterpol.f90
-│       └── GaussLegendreQuadrature.compile
-├── version.txt
-└── build
-    └── src.linux-x86_64-3.9
-        ├── pyintegralall
-        ├── PyIntegral
-        └── build
+├── README_setup.txt
+├── requirements.txt
+├── build
+│   ├── lib.linux-x86_64-cpython-39
+│   ├── lib.macosx-11.1-arm64-cpython-39
+│   ├── temp.macosx-11.1-arm64-cpython-39
+│   ├── temp.linux-x86_64-cpython-39
+│   ├── src.linux-x86_64-3.9
+│   ├── temp.linux-x86_64-3.9
+│   └── src.macosx-11.1-arm64-3.9
+└── .git
+    ├── branches
+    ├── logs
+    ├── info
+    ├── index
+    ├── description
+    ├── FETCH_HEAD
+    ├── HEAD
+    ├── ORIG_HEAD
+    ├── objects
+    ├── packed-refs
+    ├── hooks
+    ├── COMMIT_EDITMSG
+    ├── refs
+    └── config
 
-14 directories, 46 files
+41 directories, 35 files
+#################################################
+Generated with tree_colored @ 2023 - © Jean Gomes
+#################################################
 </code>
 </pre>
 
