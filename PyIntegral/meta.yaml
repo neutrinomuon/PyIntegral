@@ -9,7 +9,7 @@ package:
 source:
   fn: "{{ name }}-{{ version }}.tar.gz"
   url: "{{ url }}"
-  sha256: febe8796484b5d629d1fbf36d53c3e60888cf6d0451b49b18bfccb5e3735eaf7
+  sha256: 407b659a36076e33820d232bbbda54e13c98ac7389b820e4920ee07765b2fec4
 
 build:
   number: 0

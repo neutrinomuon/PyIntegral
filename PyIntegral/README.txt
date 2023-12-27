@@ -8,7 +8,6 @@ linux-ppc64le
 linux-s390x
 osx-64
 osx-arm64
-README.txt
 win-32
 win-64
 win-arm64
