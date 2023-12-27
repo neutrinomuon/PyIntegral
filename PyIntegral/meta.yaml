@@ -1,4 +1,4 @@
-{% set name = "PyIntegral" %}
+{% set name = "pyintegral" %}
 {% set version = "0.0.13" %}
 {% set url = "https://pypi.io/packages/source/" + name[0] + "/" + name + "/" + name + "-" + version + ".tar.gz" %}
 
@@ -28,7 +28,7 @@ requirements:
 
 test:
   imports:
-    - PyIntegral
+    - pyintegral
 
 about:
   home: "https://github.com/neutrinomuon/PyIntegral"
