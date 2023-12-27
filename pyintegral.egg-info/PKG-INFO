@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyintegral
-Version: 0.0.12.2
+Version: 0.0.13
 Summary: Integrate arrays, functions numerically usingdifferent methods in Python. Original Fortran2003+ legacy routines date back to 2003-2004.Read the LICENSE.txt file. In agreement with PEP 8 standard guide
 Home-page: https://github.com/neutrinomuon/PyIntegral
 Author: Jean Gomes
@@ -11,7 +11,12 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 
+<p align="left">
+  <img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" alt="PyIntegral" width="120px">
+</p>
+
 ### PyIntegral
+
 ####  A Fortran legacy package to easy integrate numerically
 email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
 
@@ -19,7 +24,9 @@ email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@as
 
 J.G. - Jean Gomes
 
-last stable version: 0.0.12.2
+last stable version: 0.0.13
+<!-- https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg -->
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)
 
 <hr>
 
@@ -30,14 +37,14 @@ last stable version: 0.0.12.2
 <hr>
 
 <div align="center">
-<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Definite_Integral.png?raw=true' width="50%">
+<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Definite_Integral.png?raw=true' width="100%">
 </div>
 
 <hr>
 
 #### <b>RESUME</b>
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" width=120>
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" width=120px>
 Integrate arrays, functions numerically using different
 methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
 <a href='https://github.com/neutrinomuon/PyIntegral/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
@@ -62,7 +69,11 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
-Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
+$\color{#58A6FF}\textsf{\Large\&#x24D8;\kern{0.2cm}\normalsize Note}$
+
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png#gh-light-mode-only" width="70px"><img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education_black_background-removebg.png#gh-dark-mode-only" width="70px">This project was also created with a focus on educational purposes.
+
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PEP8-StyleGuide.jpg" width="70px"> Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
 
 --------------------------------------------------------------------<br>
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
@@ -113,7 +124,13 @@ The methods are given by Int_Type and may be summarized bellow:
 <tr><td>4<td>M</td><td>Median rectangle Integral </td></tr>
 <tr><td>5<td>I</td><td>Simpsonregel's rule       </td></tr>
 <tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
+
+<div align="center">
+<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Example_Integration.png?raw=true' width="70%">
+</div>
+
 </table>
+
 
 <hr>
 
@@ -132,75 +149,114 @@ The main structure of the directories and files are:
 
 <pre>
 <code>
+#################################################
 PyIntegral
 ├── PyIntegral
+│   ├── win-32
+│   ├── linux-armv7l
+│   ├── win-arm64
+│   ├── linux-armv6l
+│   ├── linux-s390x
+│   ├── linux-ppc64
+│   ├── linux-aarch64
+│   ├── linux-32
+│   ├── linux-64
+│   ├── osx-64
+│   ├── meta.yaml
+│   ├── win-64
+│   ├── README.txt
+│   ├── linux-ppc64le
+│   └── osx-arm64
 ├── dist
-│   └── PyIntegral-0.0.10.tar.gz
+│   └── pyintegral-0.0.12.2.tar.gz
 ├── README.md
 ├── showdown.min.js
+├── figures
+│   ├── Definite_Integral.png
+│   ├── Example_Integration.png
+│   ├── PyIntegral.png
+│   ├── PEP8-StyleGuide.jpg
+│   └── Education,_Studying,_University,_Alumni_-_icon.png
+├── .github
+│   └── workflows
 ├── scripts
 │   └── update_readme.py
 ├── index.html
 ├── LICENSE.txt
 ├── setup.py
-├── PyIntegral.egg-info
+├── tutorials
+│   ├── Definite_Integral.png
+│   ├── Definite_Integral.py
+│   ├── .ipynb_checkpoints
+│   ├── example1_pyintegral.ipynb
+│   ├── .virtual_documents
+│   └── README.txt
+├── src
+│   ├── python
+│   └── fortran
+├── .DS_Store
+├── version.txt
+├── pyintegral.egg-info
 │   ├── PKG-INFO
 │   ├── dependency_links.txt
 │   ├── SOURCES.txt
 │   ├── top_level.txt
 │   └── requires.txt
-├── tutorials
-│   ├── Definite_Integral.png
-│   ├── Definite_Integral.py
-│   ├── .ipynb_checkpoints
-│   │   ├── Example1 - pyintegralall-checkpoint.ipynb
-│   │   └── Example1 - IntegralALL-checkpoint.ipynb
-│   └── Example1 - pyintegralall.ipynb
-├── src
-│   ├── python
-│   │   ├── __init__.py
-│   │   └── PyIntegralALL.py
-│   └── fortran
-│       ├── LINinterpol.cpython-39-darwin.so
-│       ├── GaussLegendreQuadrature.cpython-311-darwin.so
-│       ├── IntegralALL.compile
-│       ├── IntegralALL.f90
-│       ├── IntegralALL.cpython-39-darwin.so
-│       ├── IntegralALL.cpython-39-x86_64-linux-gnu.so
-│       ├── IntegralALL.cpython-310-darwin.so
-│       ├── IntegralALL.cpython-310-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-38-x86_64-linux-gnu.so
-│       ├── IntegralALL.cpython-311-darwin.so
-│       ├── DataTypes.f90
-│       ├── GaussLegendreQuadrature.cpython-39-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-310-darwin.so
-│       ├── LINinterpol.cpython-311-darwin.so
-│       ├── IntegralALL.cpython-38-x86_64-linux-gnu.so
-│       ├── LINinterpol.cpython-38-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-310-x86_64-linux-gnu.so
-│       ├── LINinterpol.cpython-310-darwin.so
-│       ├── LINinterpol.compile
-│       ├── GaussLegendreQuadrature.f90
-│       ├── README.txt
-│       ├── LINinterpol.cpython-39-x86_64-linux-gnu.so
-│       ├── GaussLegendreQuadrature.cpython-39-darwin.so
-│       ├── LINinterpol.cpython-310-x86_64-linux-gnu.so
-│       ├── LINinterpol.f90
-│       └── GaussLegendreQuadrature.compile
-├── version.txt
-└── build
-    └── src.linux-x86_64-3.9
-        ├── pyintegralall
-        ├── PyIntegral
-        └── build
+├── README_setup.txt
+├── requirements.txt
+├── build
+│   ├── lib.linux-x86_64-cpython-39
+│   ├── lib.macosx-11.1-arm64-cpython-39
+│   ├── temp.macosx-11.1-arm64-cpython-39
+│   ├── temp.linux-x86_64-cpython-39
+│   ├── src.linux-x86_64-3.9
+│   ├── temp.linux-x86_64-3.9
+│   └── src.macosx-11.1-arm64-3.9
+└── .git
+    ├── branches
+    ├── logs
+    ├── info
+    ├── index
+    ├── description
+    ├── FETCH_HEAD
+    ├── HEAD
+    ├── ORIG_HEAD
+    ├── objects
+    ├── packed-refs
+    ├── hooks
+    ├── COMMIT_EDITMSG
+    ├── refs
+    └── config
 
-14 directories, 46 files
+41 directories, 35 files
+#################################################
+Generated with tree_colored @ 2023 - © Jean Gomes
+#################################################
 </code>
 </pre>
 
 PyIntegral.py is a python wrapper to the library in Fortran called
 pyintegral.flib. The Fortran directory can be compiled separately for each
 individual subroutine.
+
+<hr>
+
+#### <b>ISSUES AND CONTRIBUTIONS</b>
+
+If you encounter any issues with this project, please feel free to submit an
+issue on the GitHub repository. We appreciate your feedback and are committed
+to improving the quality of our codebase.
+
+If you'd like to contribute to this project, we welcome pull requests from the
+community. Before submitting a pull request, please make sure to fork the
+repository and create a new branch for your changes. Once your changes are
+complete, submit a pull request and we'll review your code as soon as
+possible.
+
+For any questions or concerns about contributing, please contact the project
+maintainer at
+[antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com). Thank you for
+your interest in contributing to our project!
 
 <hr>
 
