@@ -24,7 +24,7 @@ last stable version: 0.0.12.2
 <hr>
 
 <div align="center">
-<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Definite_Integral.png?raw=true' width="50%">
+<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Definite_Integral.png?raw=true' width="100%">
 </div>
 
 <hr>
