@@ -56,7 +56,9 @@ integrated, the interval over which to integrate, and the desired level of
 accuracy. The output of the routine is an approximation of the definite
 integral.
 
-$\color{#58A6FF}\textsf{\Large\&#x24D8;\kern{0.2cm}\normalsize Note}$
+<!-- $\color{#58A6FF}\textsf{\Large\&#x24D8;\kern{0.2cm}\normalsize Note}$ -->
+<span style="color: #58A6FF; font-family: sans-serif; font-size: 1.5em;">&#x24D8; Note</span>
+
 
 <!-- This does not work on github
 ![Light Mode Icon](https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png)
